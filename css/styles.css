@@ -13,7 +13,6 @@ html {
 .indexheader{
     background-color:#5848DB;
     width: 100%;
-    height: 25.25rem;
     display:flex;
     flex-direction: column;
     color: #ffffff;
@@ -1031,7 +1030,85 @@ flex-shrink: 0;
 
 /*++++++++++++ media responsive*/
 
-/*responsive registro 1 y 2*/
+/*responsive index */
+
+@media (max-width: 768px){
+    .indexheader .registerlitems{
+        max-width: 100%;
+        display: flex;
+        height: none;
+    }
+    .travelninjaname{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .registerlitems h1{
+        padding-left: initial;
+        padding: initial;
+    }
+    .indexheader nav ul {
+        flex-direction: column;
+    }
+    .comofuncionaindex{
+        height: initial;
+    }
+}
+
+@media (max-width: 425px){
+    .indexheader .registerlitems{
+        max-width: 100%;
+        display: flex;
+        height: none;
+        flex-direction: column;
+    }
+    .registerlitems ul{
+        align-items: center;
+    }
+    .vermasbutton h2{
+        font-size: 1.8rem;
+    }
+    .vermasbutton p{
+        font-size: 1rem;
+    }
+    .vermasbutton a{
+        height: initial;
+    }
+    .comofuncionaindex h2 {
+        font-size: 2rem;
+    }
+    .travelninjaname{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .registerlitems h1{
+        padding-left: initial;
+        padding: initial;
+    }
+    .comofuncionaindex{
+        height: initial;
+    }
+    .comofuncionaindex div{
+        padding: inherit;
+        padding-bottom: 1.5rem;
+    }
+    .containers{
+        flex-direction: column;
+        align-items: center;
+    }
+    .offercontainers{
+        flex-direction: column;
+    }
+    .algunasofertasindex h2{
+        font-size: 1.8rem;
+    }
+}
+
+
+/*responsive registro1 y 2*/
 @media (max-width: 768px){
     .extension h1{
         font-size: 2.5rem;
@@ -1057,9 +1134,23 @@ flex-shrink: 0;
         text-align: center;
         justify-content: center;
         align-content: center;
+        padding-top: inherit;
+        padding-right: inherit;
+    }
+    .register1 h1 {
+        font-size: 2rem;
+    }
+    .rectangledestination{
+        height: 32rem;
+    }
+    .rectangledestination h3{
+        font-size: 1.5rem;
+    }
+    .rectangledestination input {
+        width: 18rem;
     }
     .header a{
-    
+    justify-content: left;
     }
     .extension h1{
         font-size: 2rem;
@@ -1115,3 +1206,54 @@ flex-shrink: 0;
     }
     
 }
+/*responsive home*/
+@media (max-width: 768px){
+    .navbar ul{
+        margin: inherit;
+    }
+    .navbar p{
+        font-size: 0.75rem;
+    }
+    .mainhome{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+    "nav section1 section1"
+    "nav section2 section2"
+    "nav section3 section3"
+    }
+}
+@media (max-width: 425px){
+    .imgtninjahome img {
+        width: 8rem;
+        height: 7.6rem;
+    }
+    .header-home h1 {
+        font-size: 2.75rem;
+    }
+    .aeropuertos ul {
+        flex-direction: column;
+    }
+    .ulairports div{
+        margin: 2rem;
+    }
+    .blurred p {
+        position: inherit;
+    }
+    .blurred img {
+        left: 4.2rem;
+    }
+    .navbar {
+        /*menu hamburguesa o iconos con bootstrap*/
+    }
+}
+/*responsive configuracion*/
+@media (max-width: 425px){
+    .mainconfiguracion {
+        grid-template-rows: .3fr 1fr 1fr;
+        grid-template-areas: 
+        "nav section1 section1"
+        "nav section2 section2"
+        "nav section3 section3";
+    }
+}
+
