@@ -1,0 +1,129 @@
+.register3 {
+    background-color: #5848DB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 7rem;
+  }
+  
+  .box {
+    box-sizing: border-box;
+    flex-direction: column;
+    align-content: center;
+    background-color: #FFF;
+    font-family: "Roboto-Regular", sans-serif;
+    border-radius: 1.18175rem;
+    width: 35.35775rem;
+    height: auto;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+  }
+  
+  .logotravelninjaregister3 img {
+    width: 10.75419rem;
+    height: 10rem;
+    flex-shrink: 0;
+  }
+  
+  .container1r-3 {
+    padding: 1rem;
+    justify-content: space-between;
+  
+    h1 {
+      padding-bottom: 1rem;
+    }
+  
+    p {
+      padding-bottom: 3rem;
+    }
+  }
+  
+  .Registresecongoogle input {
+    border-radius: 3.75rem;
+    border: 6px solid #E5E5E5;
+    background: #F5F5F5;
+    width: 20rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .registreseconapple input {
+    border-radius: 3.75rem;
+    border: 6px solid #E5E5E5;
+    background: #F5F5F5;
+    width: 20rem;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .correoelectronico-3 input {
+    border-radius: 3.75rem;
+    border: 6px solid #E5E5E5;
+    background: #F5F5F5;
+    width: 20rem;
+    height: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contraseña-3 input {
+    border-radius: 3.75rem;
+    border: 6px solid #E5E5E5;
+    background: #F5F5F5;
+    width: 20rem;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .Siguienteregister3 {
+    box-sizing: border-box;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #5848DB;
+    border-radius: 5.4rem;
+    color: #FFF6E9;
+    font-size: 1.55319rem;
+  }
+  
+  .siguientebuttondiv3 {
+    padding-bottom: 3.5rem;
+  }
+  
+  /* inicio de sesion*/
+  
+  .iniciarsesioncontainer {
+    background-color: #5848DB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+  }
+  
+  .boxiniciarsesion {
+    box-sizing: border-box;
+    flex-direction: column;
+    align-content: center;
+    background-color: #FFF;
+    font-family: "Roboto-Regular", sans-serif;
+    border-radius: 1.18175rem;
+    width: 35.35775rem;
+    height: auto;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+  }
+  
+  .Siguienteiniciosesion a {
+    box-sizing: border-box;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #5848DB;
+    border-radius: 5.4rem;
+    color: #FFF6E9;
+    font-size: 1.55319rem;
+  }
+  
+  .spacer {
+    padding: 1rem;
+  }
+  

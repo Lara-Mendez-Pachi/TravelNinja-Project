@@ -1,0 +1,261 @@
+/*responsive index */
+  
+@media (max-width: 768px) {
+    .indexheader .registerlitems {
+      max-width: 100%;
+      display: flex;
+      height: none;
+    }
+  
+    .travelninjaname {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .registerlitems h1 {
+      padding-left: initial;
+      padding: initial;
+    }
+  
+    .indexheader nav ul {
+      flex-direction: column;
+    }
+  
+    .comofuncionaindex {
+      height: initial;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .indexheader .registerlitems {
+      max-width: 100%;
+      display: flex;
+      height: none;
+      flex-direction: column;
+    }
+  
+    .registerlitems ul {
+      align-items: center;
+    }
+  
+    .vermasbutton {
+      h2 {
+        font-size: 1.8rem;
+      }
+  
+      p {
+        font-size: 1rem;
+      }
+  
+      a {
+        height: initial;
+      }
+    }
+  
+    .comofuncionaindex h2 {
+      font-size: 2rem;
+    }
+  
+    .travelninjaname {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .registerlitems h1 {
+      padding-left: initial;
+      padding: initial;
+    }
+  
+    .comofuncionaindex {
+      height: initial;
+  
+      div {
+        padding: inherit;
+        padding-bottom: 1.5rem;
+      }
+    }
+  
+    .containers {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .offercontainers {
+      flex-direction: column;
+    }
+  
+    .algunasofertasindex h2 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  /*responsive registro1 y 2*/
+  @media (max-width: 768px) {
+    .extension h1 {
+      font-size: 2.5rem;
+    }
+  
+    .registro2 {
+      div {
+        width: 39.625rem;
+        height: 30.25rem;
+        flex-shrink: 0;
+      }
+  
+      input {
+        width: 20rem;
+        height: 2rem;
+        flex-shrink: 0;
+      }
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .header {
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 2rem;
+  
+      h1 {
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding-top: inherit;
+        padding-right: inherit;
+      }
+    }
+  
+    .register1 h1 {
+      font-size: 2rem;
+    }
+  
+    .rectangledestination {
+      height: 32rem;
+  
+      h3 {
+        font-size: 1.5rem;
+      }
+  
+      input {
+        width: 18rem;
+      }
+    }
+  
+    .header a {
+      justify-content: left;
+    }
+  
+    .extension h1 {
+      font-size: 2rem;
+    }
+  
+    .registro2 {
+      div {
+        width: 19.25rem;
+        height: 35rem;
+        flex-shrink: 0;
+      }
+  
+      input {
+        width: 14rem;
+        height: 2rem;
+        flex-shrink: 0;
+      }
+  
+      a {
+        font-size: 1.22944rem;
+      }
+    }
+  
+    .backresponsive {
+      display: flex;
+      width: 100%;
+    }
+  
+    .headercontainerh1 h1 {
+      padding: 0;
+    }
+  }
+  
+  /*registro3*/
+  
+  @media (max-width: 425px) {
+    .box {
+      width: 19.11388rem;
+      height: 55.14313rem;
+      flex-shrink: 0;
+    }
+  
+    .Registresecongoogle input, .registreseconapple input, .correoelectronico-3 input, .contraseña-3 input {
+      width: 14rem;
+      height: 2.5rem;
+      text-align: center;
+    }
+  }
+  
+  /*responsive home*/
+  @media (max-width: 768px) {
+    .navbar {
+      ul {
+        margin: inherit;
+      }
+  
+      p {
+        font-size: 0.75rem;
+      }
+    }
+  
+    .mainhome {
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: "nav section1 section1" "nav section2 section2" "nav section3 section3";
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .imgtninjahome img {
+      width: 8rem;
+      height: 7.6rem;
+    }
+  
+    .header-home h1 {
+      font-size: 2.75rem;
+    }
+  
+    .aeropuertos ul {
+      flex-direction: column;
+    }
+  
+    .ulairports div {
+      margin: 2rem;
+    }
+  
+    .blurred {
+      p {
+        position: inherit;
+      }
+  
+      img {
+        left: 4.2rem;
+      }
+    }
+  }
+  
+  /*responsive configuracion*/
+  @media (max-width: 425px) {
+    .mainconfiguracion {
+      grid-template-rows: .3fr 1fr 1fr;
+      grid-template-areas: "nav section1 section1" "nav section2 section2" "nav section3 section3";
+    }
+  }
+  
+  /* responsive promo*/
+  @media (max-width: 768px) {
+    .promomain {
+      flex-direction: column;
+    }
+  }
+  

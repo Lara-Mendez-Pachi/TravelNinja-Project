@@ -1,0 +1,89 @@
+
+
+
+
+.header {
+    background-color: $colorheader;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Saira-Black", sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    height: 14rem;
+  
+    h1 {
+      padding-right: 3rem;
+      font-size: 45.8598747253418px;
+      font-weight: 900;
+      padding-top: 4rem;
+      text-align: center;
+      text-anchor: .0938rem #ffffff;
+      -webkit-text-stroke: 2px #ffffff;
+    }
+  }
+  
+  .register1 {
+    background-color: #5848DB;
+    padding-bottom: 6rem;
+  
+    h1 {
+      color: #FFF6E9;
+      text-align: center;
+      font-family: "Roboto-Regular", sans-serif;
+      font-size: 3.75rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  
+    p {
+      color: #FFF6E9;
+      text-align: center;
+      font-family: "Roboto-Regular", sans-serif;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+  
+  .rectangledestination {
+    background: white;
+    box-sizing: border-box;
+    height: 24rem;
+    border-radius: 3.75rem;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 1.5rem;
+    color: #322A6E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+    margin: 3rem;
+  
+    input {
+      border-radius: 3.75rem;
+      border: 6px solid #E5E5E5;
+      background: #F5F5F5;
+      width: 65%;
+      height: 3.5rem;
+    }
+  }
+  
+  .register1continue a {
+    border-radius: 3.75rem;
+    background: #5848DB;
+    color: #FFF;
+    box-shadow: 0px 4.97px 4.97px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 16.54156rem;
+    height: 3.65rem;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 1rem;
+  }
+  

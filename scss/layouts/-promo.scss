@@ -1,0 +1,134 @@
+.headerpromo {
+    background-color: #FFF6E9;
+    color: #5848DB;
+    text-align: center;
+    font-family: "Saira-Black", sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    height: 12rem;
+  
+    h1 {
+      padding-right: 3rem;
+      font-size: 45.8598747253418px;
+      font-weight: 900;
+      padding-top: 4rem;
+      font-size: 50.227481842041016px;
+      font-weight: 900;
+      position: relative;
+      text-anchor: 2px #5848DB;
+      -webkit-text-stroke: 2px #5848DB;
+    }
+  }
+  
+  .promomain {
+    background-color: #FFF6E9;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+    justify-content: space-around;
+    font-family: "Roboto-Regular", sans-serif;
+  }
+  
+  .standard {
+    border-radius: 3.75rem;
+    border: 1px solid #474747;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 28rem;
+    height: 42.5rem;
+    flex-shrink: 0;
+    flex-direction: column;
+  
+    h2 {
+      padding: 2rem;
+    }
+  }
+  
+  .imagelogotnpromo img {
+    width: 10.75419rem;
+    height: 10rem;
+    flex-shrink: 0;
+  }
+  
+  .standard {
+    ul {
+      text-align: left;
+      padding-bottom: 8rem;
+    }
+  
+    li {
+      display: flex;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    p {
+      align-items: center;
+      display: inline-flex;
+      padding-left: 0.5rem;
+    }
+  }
+  
+  .suscribedbutton a {
+    border-radius: 3.75rem;
+    background: #000;
+    mix-blend-mode: multiply;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: white;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  
+  .premium {
+    border-radius: 3.75rem;
+    color: white;
+    border: 1px solid #474747;
+    background: #5848DB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 28rem;
+    height: 42.5rem;
+    flex-shrink: 0;
+  
+    h2 {
+      padding: 2rem;
+    }
+  
+    ul {
+      text-align: left;
+    }
+  
+    li {
+      display: flex;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    p {
+      align-items: center;
+      display: inline-flex;
+      padding-left: 0.5rem;
+      justify-content: center;
+    }
+  }
+  
+  .subscribebutton a {
+    border-radius: 3.75rem;
+    background: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: #5848DB;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }

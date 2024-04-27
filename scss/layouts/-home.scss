@@ -1,0 +1,275 @@
+.header-home {
+    background-color: $colorheader ;
+    width: 100%;
+    height: 9.5rem;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Saira-Black", sans-serif;
+    justify-content: space-between;
+    align-items: center;
+  
+    h1 {
+      color: #fff6e9;
+      text-align: center;
+      font-family: "Saira-Black", sans-serif;
+      font-size: 50.227481842041016px;
+      font-weight: 900;
+      position: relative;
+      text-anchor: 2px #fff6e9;
+      -webkit-text-stroke: 2px #fff6e9;
+    }
+  }
+  
+  .imgtninjahome img {
+    width: 9.3125rem;
+    height: 8.2;
+    flex-shrink: 0;
+    margin: 0.25rem;
+    align-content: center;
+  }
+  
+  .spacerhome {
+    width: 9rem;
+  }
+  
+  .navbar {
+    gap: .75;
+    background-color: #FFF;
+  
+    p {
+      color: #808080;
+      margin: .25rem;
+    }
+  }
+  
+  .logouthome img {
+    width: 1.12956rem;
+    height: 1.12956rem;
+    margin-right: .3125rem;
+  }
+  
+  .userinfohome img {
+    width: 2.25913rem;
+    height: 2.25913rem;
+    margin: .5rem;
+  }
+  
+  .navbar {
+    li {
+      margin: .5rem;
+      list-style: none;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+      background-color: #FFF;
+    }
+  
+    ul {
+      margin: 1rem;
+    }
+  
+    nav {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+  
+  .mainhome {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 17% 41.5% 41.5%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "nav section1 section2" "nav section3 section3";
+    font-family: "Roboto-Regular", sans-serif;
+  }
+  
+  .navbar {
+    grid-area: nav;
+    background-color: white;
+  }
+  
+  .section-1home {
+    grid-area: section1;
+    background-color: #FFF6E9;
+    text-align: center;
+    color: #2B5B7C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  
+    h2 {
+      padding-top: 1rem;
+    }
+  }
+  
+  .aeropuertos {
+    padding: 1.5rem;
+  
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .blurred {
+    display: inline-block;
+    position: relative;
+  
+    li, p {
+      position: absolute;
+      filter: blur(5px);
+      color: transparent;
+      text-shadow: 0 0 0 #000;
+    }
+  
+    img {
+      position: absolute;
+      top: 1.3rem;
+      left: .3rem;
+    }
+  }
+  
+  .ulairports div {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .aeropuertos {
+    .blurred {
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  
+    align-items: center;
+    text-align: center;
+  }
+  
+  .ulairports {
+    li {
+      color: #5848db;
+      text-align: center;
+      font-family: "SfCompact-SemiboldG2", sans-serif;
+      font-size: 57.892391204833984px;
+      font-weight: 400;
+      position: relative;
+      text-emphasis: bold;
+      text-anchor: 2px #5848db;
+      -webkit-text-stroke: 2px #5848db;
+    }
+  
+    a {
+      display: flex;
+      flex-direction: column;
+      background-color: #5848DB;
+      color: #F5F5F5;
+      padding: 1rem 1rem;
+      border-radius: 1.08194rem;
+      text-decoration: none;
+      align-items: center;
+      justify-content: space-between;
+  
+      img {
+        width: 1.67913rem;
+        height: 1.67913rem;
+        flex-shrink: 0;
+      }
+    }
+  }
+  
+  .ulalertshome li {
+    color: #FFF6E9;
+    position: relative;
+    overflow: visible;
+    background-color: #5848DB;
+    border-radius: 1.659rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .alertshome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .ulalertshome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  
+    div {
+      display: flex;
+      text-align: center;
+      justify-content: space-around;
+      padding: .25rem;
+    }
+  }
+  
+  .añadiralertahome a {
+    display: flex;
+    flex-direction: column;
+    background-color: #5848DB;
+    color: #F5F5F5;
+    padding: 1rem 1rem;
+    border-radius: 1.08194rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+  
+    img {
+      width: 1.67913rem;
+      height: 1.67913rem;
+      flex-shrink: 0;
+    }
+  }
+  
+  .section-1home li {
+    list-style: none;
+    align-items: center;
+  }
+  
+  .section-2home {
+    grid-area: section2;
+    background-color: #FFF6E9;
+    color: #2B5B7C;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .section-3home {
+    grid-area: section3;
+    background-color: #CDC7FF;
+    color: #2B5B7C;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+  
+    h2 img {
+      padding: .5rem;
+    }
+  }
+  
+  .contenedor1s3homemain {
+    width: 55%;
+  }
+  
+  .section-3home h2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contenedor1s3, .contenedor2s3, .contenedor3s3, .contenedor4s3, .contenedor5s3 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+  

@@ -1,0 +1,60 @@
+.registro2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+  
+    h3 {
+      padding-top: 3rem;
+      font-size: 1.5rem;
+    }
+  }
+  
+  .extension {
+    background-color: $colorheader;
+    font-family: "Roboto-Regular", sans-serif;
+    color: #FFF6E9;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  .registro2 {
+    background: #5848DB;
+    font-family: "Roboto-Regular", sans-serif;
+    color: #322A6E;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    align-items: center;
+    justify-content: space-around;
+  
+    div {
+      box-sizing: border-box;
+      flex-direction: column;
+      align-content: center;
+      border-radius: 3.75rem;
+      background: #FFF;
+      text-align: center;
+      justify-content: space-between;
+      padding: 3rem;
+      width: 60rem;
+    }
+  
+    a {
+      box-sizing: border-box;
+      padding: 0.5rem;
+      background-color: #5848DB;
+      border-radius: 5.4rem;
+      color: #FFF6E9;
+      font-size: 1.55319rem;
+    }
+  
+    input {
+      border-radius: 3.75rem;
+      border: 6px solid #E5E5E5;
+      background: #F5F5F5;
+      width: 65%;
+      height: 3.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+  

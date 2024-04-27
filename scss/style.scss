@@ -1,0 +1,37 @@
+/*variables*/
+@import "./utilities/-variables.scss";
+@import "./utilities/-mapas.scss";
+@import "./utilities/-mixins.scss";
+
+
+/*index*/
+
+@import "./base/-reset.scss";
+@import "./layouts/-index.scss";
+
+  /* registro1 */
+
+@import "./layouts/-registro1.scss";
+ 
+  /* registro 2*/
+@import "./layouts/-registro2.scss";
+  
+  /*registro3*/
+  
+ @import "./layouts/-registro3.scss";
+
+  /*PROMO PAGE*/
+  
+@import "./layouts/-promo.scss";
+  
+  /* home */
+  
+ @import "./layouts/-home.scss";
+
+  /* CONFIGURACION*/
+  
+  @import "./layouts/-configuracion.scss";
+  /*++++++++++++ media responsive*/
+  
+  @import "./layouts/-mediaq.scss";
+  

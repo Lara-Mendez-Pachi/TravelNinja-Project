@@ -1,0 +1,51 @@
+.mainconfiguracion {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 17% 30% 53%;
+    grid-template-rows: .3fr 1fr;
+    grid-template-areas: "nav section1 section1" "nav section2 section3";
+    font-family: "Roboto-Regular", sans-serif;
+  }
+  
+  .section1-config {
+    grid-area: section1;
+    background-color: #FFF6E9;
+    color: #064B3C;
+    padding: 1rem;
+  }
+  
+  .section3-config {
+    grid-area: section3;
+    background-color: #FFF6E9;
+    color: #064B3C;
+  
+    input {
+      width: 22.5rem;
+      height: 2.1875rem;
+    }
+  }
+  
+  .section2-config {
+    grid-area: section2;
+    background-color: #FFF6E9;
+    text-align: center;
+    color: #064B3C;
+  
+    img {
+      width: 6.32319rem;
+      height: 6.25rem;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+    }
+  
+    div {
+      padding: 2rem;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  }
+  
